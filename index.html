@@ -32,7 +32,7 @@ header{padding:max(40px,calc(env(safe-area-inset-top)+24px)) 0 28px;border-botto
 .fg label{display:block;font-size:10px;font-family:'DM Mono',monospace;color:var(--muted);letter-spacing:1px;margin-bottom:7px;text-transform:uppercase}
 .fg select,.fg input{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:7px;padding:10px 12px;color:var(--text);font-family:'DM Sans',sans-serif;font-size:16px;outline:none;transition:border-color .2s;appearance:none;-webkit-appearance:none}
 .fg select:focus,.fg input:focus{border-color:var(--orange)}
-.fg textarea{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:7px;padding:12px;color:var(--text);font-family:'DM Sans',sans-serif;font-size:16px;outline:none;resize:vertical;min-height:90px;transition:border-color .2s;line-height:1.5}
+.fg textarea{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:7px;padding:12px;color:var(--text);font-family:'DM Sans',sans-serif;font-size:16px;outline:none;resize:vertical;min-height:90px;transition:border-color .2s;line-height:1.5;touch-action:manipulation;-webkit-user-select:text;user-select:text;}
 .fg textarea:focus{border-color:var(--orange)}
 .fg textarea::placeholder{color:var(--muted2)}
 .toggles{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:18px}
